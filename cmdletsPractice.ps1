@@ -6,6 +6,7 @@ $params = @{
     'Get-Command -Syntax New-ADUser' = 'Display the syntax for the New-ADUser cmdlet';
     'Get-Command -ParameterName InputObject' = 'Display all commands that use the InputObject parameter';
 
+# Get-Help
     'Get-Help' = '';
     'Get-Help Get-Command' = 'Display the default help documentation for the Get-Command cmdlet';
     'Get-Help Get-Process -Examples' = 'Display examples for using the Get-Process cmdlet';
@@ -14,6 +15,7 @@ $params = @{
     'Get-Help Set-Location -Parameter *' = 'Display all the parameter definitions for the Set-Location cmdlet';
     'Get-Help Set-Location -Parameter Path' = 'Display the definition for the "-Path" parameter for the Set-Location cmdlet';
 
+# Get-ChildItem
     'Get-ChildItem' = 'Display the contents of the current working directory';
     'Get-ChildItem *.txt' = 'Display the contents of the current working directory. Only return those files with a .txt extension';
     'Get-ChildItem -Exclude *.xls' = 'Display the contents of the current working directory except for files ending in .xls';
@@ -21,6 +23,7 @@ $params = @{
     'Get-ChildItem -Directory' = 'Display the contents of the current working directory. Only return those items that are directories.';
     'Get-ChildItem -Directory -Recurse' = 'Display the directories in the current working directory and any subdirectories they contain';
 
+# New-Item
     'New-Item scripts -ItemType Directory' = 'Create a new directory named "scripts" within the current working directory';
     'New-Item helloWorld.ps1 -ItemType File' = 'Create a new file named "helloWorld.ps1" within the current working directory';
     'New-Item file1.txt, file2.txt -ItemType File' = 'Create two new files named "file1.txt" and "file2.txt" within the current working directory';
